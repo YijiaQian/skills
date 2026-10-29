@@ -30,6 +30,8 @@
 
 脚本用 `git clone --depth 1 -b skill/<name>` 拉取，校验根目录存在 `SKILL.md` 后再移动到目标位置；目标已存在时先改名备份为 `<name>.bak-<时间戳>`，不直接覆盖。
 
+仓库是私有的，首次克隆需要本机已有可用的 GitHub 凭据（`gh auth login`，或凭据管理器里存过 token）。
+
 Unix 上用 `install.sh`，参数相同：
 
 ```bash
