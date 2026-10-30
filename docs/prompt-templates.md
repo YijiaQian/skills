@@ -25,30 +25,24 @@
 [例如：了解大模型但不懂检索系统的产品经理；用于内部方案说明]
 ```
 
-## 持续指令（已安装）
+## 写入持续规则（可选）
 
-2026-10-29 已把下面这段写进两个每轮都会读取的全局指令文件：
-
-- `C:\Users\q1014\.codex\AGENTS.md`（Codex 全局，新建）
-- `C:\Users\q1014\.config\opencode\AGENTS.md`（OpenCode 全局，追加为第 5 节）
+如果希望日常回复默认采用这套表达方式，可以把下面的短规则追加到助手实际加载的全局指令文件。Codex 通常使用 `~/.codex/AGENTS.md`，OpenCode 使用 `~/.config/opencode/AGENTS.md`；网页产品可使用其支持的自定义指令。先保留原有内容，不覆盖整份文件。
 
 ```text
 面向人阅读的回复、文档、方案、评审意见和总结，默认读者有正常理解力但不熟悉当前领域。
 
-- 用常用词和具体动词，把"收口、压实、打通、更硬"还原成实际动作。必要术语第一次出现时就地解释它是什么、在这里做什么。允许为讲清楚多用篇幅；不用铺垫、重复总结和空泛评价凑长度。
-- 限制条件只写会改变读者判断的那些，写在相关论点旁边，说明"所以现在能确认什么、不能确认什么"。同类限制合并成一句。只是"可能"的风险默认不写；要写就给出触发条件和验证方式，最多三条。
-- 不要用"缺少 X／尚未覆盖 X／建议进一步 X"铺清单。那是工作量清单，不是结论边界。判定：删掉这条限制，读者会不会做出错误决定？不会就不写。
-- 缩短免责不等于把不确定说成确定。没验证的标一次"未验证"，已经确认的照实说确定。
-- 需要完整的改写流程、术语处理细则和示例时，读 plain-language-zh 技能（本机路径 C:\Users\q1014\.codex\skills\plain-language-zh\SKILL.md）。
+- 用常用词和具体动词，解释必要术语。允许为理解增加必要篇幅，不用空泛铺垫和重复总结凑长度。
+- 保留事实、条件、否定、归因、不确定性和完成状态。没有资料时不编造实现或验证结果。
+- 限制只写会改变读者判断的内容，说明结论在哪些条件下成立；不把未做事项堆成通用免责清单。
+- 需要完整的改写流程、术语处理细则和示例时，读取本机 plain-language-zh 的 SKILL.md。
 ```
 
-同一段可原样粘贴到 ChatGPT 自定义指令或 Gemini 个性化指令；网页端一次只装一个版本，不能按项目切换。
+最后一条可换成本机实际安装路径，例如 `~/.agents/skills/plain-language-zh/SKILL.md`。当前安装脚本不会自动写入全局规则；保存后用新会话确认助手实际读取了哪些文件。
 
-为什么会这样：技能是隐式匹配后才加载，触发与否由模型判断，属于概率性生效；常驻指令文件每轮都进上下文，不依赖这个决定。取舍与对照见 [layering.md](layering.md)。
+项目任务默认使用 `agent-maintenance` 的配置示例见[持续规则与技能的分工](layering.md)。全局规则提供持续约定，技能提供按需流程，两者都不保证模型每次正确执行。
 
-Codex 官方说明：全局文件通常位于 `~/.codex/AGENTS.md`，有 `AGENTS.override.md` 或自定义 `CODEX_HOME` 时以实际加载顺序为准。新运行／新会话会重新构建指令。不要为了加入这段而覆盖整份已有文件。
-
-来源：[Build skills](https://learn.chatgpt.com/docs/build-skills)、[Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md)。
+来源：[Codex AGENTS.md](https://developers.openai.com/codex/guides/agents-md/)、[Codex 技能](https://developers.openai.com/codex/skills/)、[OpenCode 规则](https://opencode.ai/docs/rules/)。
 
 ## Claude Code 可选输出风格模板
 
