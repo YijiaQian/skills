@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent Maintenance"
+  short_description: "项目开发中核对事实来源，同步代码与文档，复用检查并维护必要决策理由"
+  default_prompt: "使用 $agent-maintenance，在当前项目的授权范围内完成改动并验证相关行为与文档。"
+policy:
+  allow_implicit_invocation: true

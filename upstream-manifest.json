@@ -1,0 +1,168 @@
+{
+  "repository": "https://github.com/WncFht/agent-maintenance",
+  "commit": "527af880f6feb0e352cae42b2c7601dc443b2b70",
+  "files": [
+    {
+      "source": ".agents/references/automation.md",
+      "file": "rules/references/automation.md",
+      "source_sha256": "ae57e4f8b857d4d26d229624a1c611ae406f0cba297a2a7b3db8da6056b88d94",
+      "packaged_sha256": "ae57e4f8b857d4d26d229624a1c611ae406f0cba297a2a7b3db8da6056b88d94"
+    },
+    {
+      "source": ".agents/references/decision-notes.md",
+      "file": "rules/references/decision-notes.md",
+      "source_sha256": "9c9eedc5c1b434f7b0842bd0c9b38bc5d51b72da75646b1f8739bb44daaf19a6",
+      "packaged_sha256": "9c9eedc5c1b434f7b0842bd0c9b38bc5d51b72da75646b1f8739bb44daaf19a6"
+    },
+    {
+      "source": ".agents/references/document-budgets.md",
+      "file": "rules/references/document-budgets.md",
+      "source_sha256": "5aa68c66c79986987e34a05e3831486bf204ac321f11ceed561c34662ff5a7ac",
+      "packaged_sha256": "5aa68c66c79986987e34a05e3831486bf204ac321f11ceed561c34662ff5a7ac"
+    },
+    {
+      "source": ".agents/references/document-lifecycle.md",
+      "file": "rules/references/document-lifecycle.md",
+      "source_sha256": "7b59108c9024c73f083a5e4f562cfc4ec144cd9f428de1c84b7cae56b7ea37cc",
+      "packaged_sha256": "7b59108c9024c73f083a5e4f562cfc4ec144cd9f428de1c84b7cae56b7ea37cc"
+    },
+    {
+      "source": ".agents/references/documentation.md",
+      "file": "rules/references/documentation.md",
+      "source_sha256": "4c80159b96fc7863012387e481cbe1fec5bef7a8a46c86fc10f4537f62994ecb",
+      "packaged_sha256": "4c80159b96fc7863012387e481cbe1fec5bef7a8a46c86fc10f4537f62994ecb"
+    },
+    {
+      "source": ".agents/references/experiment-reports.md",
+      "file": "rules/references/experiment-reports.md",
+      "source_sha256": "da187d150c11d0cad224dafd77262f9fe0bf7fdf3c531d53ac81e381d05ab7cc",
+      "packaged_sha256": "da187d150c11d0cad224dafd77262f9fe0bf7fdf3c531d53ac81e381d05ab7cc"
+    },
+    {
+      "source": ".agents/references/prose-examples.md",
+      "file": "rules/references/prose-examples.md",
+      "source_sha256": "c453a4401dd3b91f38e2125b893b3bf2dab6ff043f79a162085f1c8e03c49dbc",
+      "packaged_sha256": "c453a4401dd3b91f38e2125b893b3bf2dab6ff043f79a162085f1c8e03c49dbc"
+    },
+    {
+      "source": ".agents/references/reasoning-residue.md",
+      "file": "rules/references/reasoning-residue.md",
+      "source_sha256": "c66d253582d86a7f72bc3ad6b1465af399890745d6c23b49871854692d4e0fbc",
+      "packaged_sha256": "c66d253582d86a7f72bc3ad6b1465af399890745d6c23b49871854692d4e0fbc"
+    },
+    {
+      "source": ".agents/references/upgrade-guides.md",
+      "file": "rules/references/upgrade-guides.md",
+      "source_sha256": "55854c14de9442b9fa71e54f91ca65b1a0e9b4635224b3c0aecc7bb86c81b0ca",
+      "packaged_sha256": "55854c14de9442b9fa71e54f91ca65b1a0e9b4635224b3c0aecc7bb86c81b0ca"
+    },
+    {
+      "source": ".agents/templates/module-readme.md",
+      "file": "rules/templates/module-readme.md",
+      "source_sha256": "85531155314694f8c2a7e975ee6f402b5cef7141d0159ef3e3b900275f546003",
+      "packaged_sha256": "85531155314694f8c2a7e975ee6f402b5cef7141d0159ef3e3b900275f546003"
+    },
+    {
+      "source": ".agents/templates/postmortem.md",
+      "file": "rules/templates/postmortem.md",
+      "source_sha256": "5e21131864ab85e5a38c1726724c65fbabcb1f2cf5138e7623b5200d686999b3",
+      "packaged_sha256": "5e21131864ab85e5a38c1726724c65fbabcb1f2cf5138e7623b5200d686999b3"
+    },
+    {
+      "source": ".agents/templates/tutorial.md",
+      "file": "rules/templates/tutorial.md",
+      "source_sha256": "af675c2569315ab5b72c666058fc2b3c1b73c52a99b492181a6dea10b21f6dba",
+      "packaged_sha256": "af675c2569315ab5b72c666058fc2b3c1b73c52a99b492181a6dea10b21f6dba"
+    },
+    {
+      "source": ".agents/templates/upgrade-guide.md",
+      "file": "rules/templates/upgrade-guide.md",
+      "source_sha256": "e373000c0af9a0e9b93127d2845662409fabe82364b36fbe35f0efe9dbaa8d29",
+      "packaged_sha256": "e373000c0af9a0e9b93127d2845662409fabe82364b36fbe35f0efe9dbaa8d29"
+    },
+    {
+      "source": ".agents/skills/maintain-decision-notes/SKILL.md",
+      "file": "rules/skills/maintain-decision-notes/SKILL.md",
+      "source_sha256": "d986d31e788bcebf34299d3d9088709e636a82f94562a62ca5b8387b04b9324e",
+      "packaged_sha256": "d986d31e788bcebf34299d3d9088709e636a82f94562a62ca5b8387b04b9324e"
+    },
+    {
+      "source": ".agents/skills/maintain-decision-notes/agents/openai.yaml",
+      "file": "rules/skills/maintain-decision-notes/agents/openai.yaml",
+      "source_sha256": "ab70af8fb63461748e9745105aeb994f04b6f09b3743b3074835a78c4b1645e5",
+      "packaged_sha256": "ab70af8fb63461748e9745105aeb994f04b6f09b3743b3074835a78c4b1645e5"
+    },
+    {
+      "source": ".agents/skills/maintain-docs/SKILL.md",
+      "file": "rules/skills/maintain-docs/SKILL.md",
+      "source_sha256": "9c057d47f1233c3b8e30af9c4d933663b4800d1b5929c86a0ee594bb3e25b57d",
+      "packaged_sha256": "9c057d47f1233c3b8e30af9c4d933663b4800d1b5929c86a0ee594bb3e25b57d"
+    },
+    {
+      "source": ".agents/skills/maintain-docs/agents/openai.yaml",
+      "file": "rules/skills/maintain-docs/agents/openai.yaml",
+      "source_sha256": "fea9d2f7190370cc557632e539a5f673623ed24aa2b5160170fe4cd15ea814cc",
+      "packaged_sha256": "fea9d2f7190370cc557632e539a5f673623ed24aa2b5160170fe4cd15ea814cc"
+    },
+    {
+      "source": ".agents/skills/maintain-prose/SKILL.md",
+      "file": "rules/skills/maintain-prose/SKILL.md",
+      "source_sha256": "adbb618846666b46ee9f28841b46dd21360952da6d29b67ca1231f60e5ce8205",
+      "packaged_sha256": "adbb618846666b46ee9f28841b46dd21360952da6d29b67ca1231f60e5ce8205"
+    },
+    {
+      "source": ".agents/skills/maintain-prose/agents/openai.yaml",
+      "file": "rules/skills/maintain-prose/agents/openai.yaml",
+      "source_sha256": "7d5b188889015328d25b14c3162f101134e23dde3a6c54f88d218c18dc127679",
+      "packaged_sha256": "7d5b188889015328d25b14c3162f101134e23dde3a6c54f88d218c18dc127679"
+    },
+    {
+      "source": ".agents/notes/README.md",
+      "file": "rules/notes/README.md",
+      "source_sha256": "34c40450112a9da41df3662b9033dd4924c90fc61033ea9b2bbf8458e50a8059",
+      "packaged_sha256": "34c40450112a9da41df3662b9033dd4924c90fc61033ea9b2bbf8458e50a8059"
+    },
+    {
+      "source": ".agents/notes/AGENTS.md",
+      "file": "rules/notes/AGENTS.md",
+      "source_sha256": "d92857c421e4a2409d358e1e7b0edbcd97c44d0a3ee4a1f267106f2979db5ced",
+      "packaged_sha256": "d92857c421e4a2409d358e1e7b0edbcd97c44d0a3ee4a1f267106f2979db5ced"
+    },
+    {
+      "source": ".agents/notes/implemented/AGENTS.md",
+      "file": "rules/notes/implemented/AGENTS.md",
+      "source_sha256": "1f7d67842c46f3d27d1cdc1e9bcde4ee9c9a61458df6c614d4aef36612ce6618",
+      "packaged_sha256": "1f7d67842c46f3d27d1cdc1e9bcde4ee9c9a61458df6c614d4aef36612ce6618"
+    },
+    {
+      "source": ".agents/notes/archived/AGENTS.md",
+      "file": "rules/notes/archived/AGENTS.md",
+      "source_sha256": "b744324ad226dcb6c7673f8aba1607d8b0f30938a2aa00abf9166b620b9ec702",
+      "packaged_sha256": "b744324ad226dcb6c7673f8aba1607d8b0f30938a2aa00abf9166b620b9ec702"
+    },
+    {
+      "source": "docs/toolchain.md",
+      "file": "docs/toolchain.md",
+      "source_sha256": "b89a77bbe93007ebba2c1d65377e2ab7cfde2fac25c1564308c037e7e73f79ba",
+      "packaged_sha256": "bb24a16291825333d41473f207497b1e7cd7f99672a172498c4f02f099e5e9e9"
+    },
+    {
+      "source": "docs/pipeline.md",
+      "file": "docs/pipeline.md",
+      "source_sha256": "393c19b2291772685adfa7f73f197cf4205e33bbcdab7879361682421c025a6a",
+      "packaged_sha256": "0405ef13a7a7d2066d7caef31ef8c9170ae4b1ff6815dd23f504b13b969cf160"
+    },
+    {
+      "source": "docs/workflow.md",
+      "file": "docs/workflow.md",
+      "source_sha256": "f4c7d384f20d500102345e0697f729e703b3c7a1df10a72f1d6e6641fca648f1",
+      "packaged_sha256": "1effa323f1203b98648de3623c6984d62d8f989d7963efcb5678554cc2663bc5"
+    },
+    {
+      "source": "LICENSE",
+      "file": "LICENSE",
+      "source_sha256": "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be",
+      "packaged_sha256": "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be"
+    }
+  ]
+}
