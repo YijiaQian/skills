@@ -1,4 +1,4 @@
 interface:
-  display_name: "中文清楚表达"
-  short_description: "减少黑话与过度压缩，解释必要术语，用自然中文把意思、理由和条件讲清楚"
-  default_prompt: "请用 $plain-language-zh 生成或改写下面的内容：按目标读者补足解释，保留事实、条件与不确定性，允许为讲清楚增加必要篇幅。"
+  display_name: "清楚表达与去套话"
+  short_description: "复用 Cursor unslop 清理中英文套话，保留事实与操作内容，并解释必要术语"
+  default_prompt: "请用 $plain-language-zh 生成或改写下面的内容：应用 unslop，按目标读者讲清楚，保留事实、条件和受保护内容。"
